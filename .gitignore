@@ -1,0 +1,24 @@
+/Computer_Vision/Adaptive_Histogram_Equalized/venv
+/Computer_Vision/Canny/venv
+/Computer_Vision/FAST/venv
+/Computer_Vision/FSD & Uniform_Quantization/venv
+/Computer_Vision/Harris_Corner/venv
+/Computer_Vision/Hough_Transform/venv
+/Computer_Vision/K_means_segmentation/venv
+/Computer_Vision/lloyd_Max_Quantizer/venv
+/DataStructure/BWT/venv
+/DataStructure/Suffix/venv
+*.qtc_clangd
+*.pro.user
+*.obj
+*.debug
+/.qmake.cache
+/.qmake.stash
+Makefile*
+*.pro.user*
+CMakeLists.txt.user*
+*.exe
+*.layout
+*qmake.stash
+/LinearAlgebra/SVD/eigen
+/LinearAlgebra/PCA/eigen
