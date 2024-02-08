@@ -2,6 +2,7 @@ venv
 *.qtc_clangd
 *.pro.user
 *.obj
+*.json
 *.debug
 /.qmake.cache
 /.qmake.stash
@@ -11,5 +12,4 @@ CMakeLists.txt.user*
 *.exe
 *.layout
 *qmake.stash
-/LinearAlgebra/SVD/eigen
-/LinearAlgebra/PCA/eigen
+eigen
