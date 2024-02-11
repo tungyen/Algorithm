@@ -22,6 +22,8 @@ public:
 
         JacobiSVD<MatrixXf> svd(conv, ComputeFullU | ComputeFullV);
         MatrixXf U = svd.matrixU();
+
+        // Get the eigenvectors with k largest eigenvalues
         MatrixXf ProjectionMatrix = U.block(0, 0, d, K);
 
         Projection = data * ProjectionMatrix;
